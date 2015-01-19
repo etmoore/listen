@@ -1,0 +1,28 @@
+{
+  "tracks": [
+    {
+      "id": "1",
+      "title": "Favorite Food",
+      "file": "favourite-food",
+      "artist": "Tokyo Police Club"
+    },
+    {
+      "id": "2",
+      "title": "Thrill of the Hunt",
+      "file": "thrill-of-the-hunt",
+      "artist": "Kind of Like Spitting"
+    },
+    {
+      "id": "3",
+      "title": "Transgender Dysphoria Blues",
+      "file": "transgender-dysphoria-blues",
+      "artist": "Against Me!"
+    },
+    {
+      "id": "4",
+      "title": "Where I'm From",
+      "file": "where-im-from",
+      "artist": "Digable Planets"
+    }
+  ]
+}
