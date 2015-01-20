@@ -10,7 +10,6 @@ $(function(){
       self.renderTemplate('#headerTemplate', '#header', {title: false});
       self.setEventListeners();
     },
-    data: '',
     renderTemplate: function(template, target, data){
       var $template = $(template).html();
       var html = Mustache.render($template, data);
@@ -51,7 +50,6 @@ $(function(){
         Player.stop.call(icon);
       });
     },
-    data: '',
   };
 
   App.init();
