@@ -2,27 +2,27 @@
   "tracks": [
     {
       "id": "1",
-      "title": "Favorite Food",
-      "file": "favourite-food",
-      "artist": "Tokyo Police Club"
+      "title": "Timestretch (I'll Follow You Live Edit)",
+      "file": "timestretch",
+      "artist": "DJ Hippo"
     },
     {
       "id": "2",
-      "title": "Thrill of the Hunt",
-      "file": "thrill-of-the-hunt",
-      "artist": "Kind of Like Spitting"
+      "title": "I Need Your Hours (Ellie Goulding x Tycho)",
+      "file": "i-need-your-hours",
+      "artist": "Imagined Escapes"
     },
     {
       "id": "3",
-      "title": "Transgender Dysphoria Blues",
-      "file": "transgender-dysphoria-blues",
-      "artist": "Against Me!"
+      "title": "My Friends Never Die",
+      "file": "my-friends-never-die",
+      "artist": "THUMP"
     },
     {
       "id": "4",
-      "title": "Where I'm From",
-      "file": "where-im-from",
-      "artist": "Digable Planets"
+      "title": "Touka",
+      "file": "touka",
+      "artist": "V/V."
     }
   ]
 }
