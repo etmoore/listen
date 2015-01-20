@@ -1,0 +1,24 @@
+{
+  "name": "music-player",
+  "version": "0.0.0",
+  "homepage": "https://github.com/etmoore/music-player",
+  "authors": [
+    "Evan Moore <etmoore@gmail.com>"
+  ],
+  "description": "'simple jquery music player with mustache templates'",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.3",
+    "semantic-ui": "~1.7.3",
+    "mustache": "~1.0.0"
+  }
+}
