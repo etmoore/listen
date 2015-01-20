@@ -4,10 +4,41 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Jambox</title>
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="bower_components/semantic-ui/dist/semantic.min.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <script type="text/template" id="playerTemplate" >
-        
+  <header class="ui black message" id="header">
+  </header>
+
+  <div class="ui segment" id="tracks">
+  </div>
+
+  <!-- Templates -->
+  <script type="text/template" id="trackTemplate" >
+    {{#tracks}}
+    <div class="ui vertical segment">
+      <h2>
+        <i class="icon play" data-id="{{id}}" data-title="{{title}}"></i>
+        {{title}} by {{artist}}
+      </h2>
+      <audio src="tracks/{{file}}.mp3" preload='none'></audio>
+    </div>
+    {{/tracks}}
   </script>
+
+  <script type="text/template" id="headerTemplate">
+    <h2>
+      {{#title}}Now Playing: <em>{{.}}</em>{{/title}}
+      {{^title}}Select a song!{{/title}}
+    </h2>
+  </script>
+
+  <!-- JS Files -->
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/mustache/mustache.min.js"></script>
+  <script type="text/javascript" src="app.js"></script>
 </body>
 </html>
