@@ -31,17 +31,17 @@ $(function(){
   var Player = {
     play: function() {
       var $icon = $(this);
-      var $audio = $(this).closest('.ui.segment.vertical').find('audio').get(0);
+      var audio = $(this).closest('.ui.segment.vertical').find('audio').get(0);
       $icon.removeClass('play').addClass('stop');
-      $audio.play();
+      audio.play();
       App.renderTemplate('#headerTemplate', '#header', {title: $icon.data('title')});
     },
     stop: function() {
       var $icon = $(this);
-      var $audio = $(this).closest('.ui.segment.vertical').find('audio').get(0);
+      var audio = $(this).closest('.ui.segment.vertical').find('audio').get(0);
       $icon.removeClass('stop').addClass('play');
-      $audio.pause();
-      $audio.currentTime = 0;
+      audio.pause();
+      audio.currentTime = 0;
       App.renderTemplate('#headerTemplate', '#header', {title: false});
     },
     stopAll: function() {
